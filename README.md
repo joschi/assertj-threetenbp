@@ -1,4 +1,6 @@
-assertj-core-java-8
-=======================
+assertj-threetenbp
+==================
 
-assertj-core based on java 8
+[AssertJ](http://assertj.org) assertions for the [ThreeTen backport project](http://www.threeten.org/).
+
+Based on [assertj-core-java-8](https://github.com/joel-costigliola/assertj-core-java8).
