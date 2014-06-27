@@ -28,7 +28,7 @@ import static org.assertj.threeten.error.ShouldBeEqualIgnoringNanos.shouldBeEqua
 import static org.assertj.threeten.error.ShouldBeEqualIgnoringSeconds.shouldBeEqualIgnoringSeconds;
 
 /**
- * Assertions for {@link ZonedDateTime} type from new Date & Time API introduced in Java 8.
+ * Assertions for {@link ZonedDateTime} type from new Date &amp; Time API introduced in Java 8.
  *
  * @author Paweł Stawicki
  * @author Joel Costigliola

@@ -25,7 +25,7 @@ import org.threeten.bp.ZonedDateTime;
 public class ShouldBeEqualIgnoringNanos extends BasicErrorMessageFactory {
 
   /**
-   * Creates a new </code>{@link ShouldBeEqualIgnoringNanos}</code>.
+   * Creates a new <code>{@link ShouldBeEqualIgnoringNanos}</code>.
    * 
    * @param actual the actual value in the failed assertion.
    * @param other the value used in the failed assertion to compare the actual value to.

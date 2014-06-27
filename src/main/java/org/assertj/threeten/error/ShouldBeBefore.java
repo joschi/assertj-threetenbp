@@ -27,7 +27,7 @@ import java.util.Date;
 public class ShouldBeBefore extends BasicErrorMessageFactory {
 
   /**
-   * Creates a new </code>{@link ShouldBeBefore}</code>.
+   * Creates a new <code>{@link ShouldBeBefore}</code>.
    * @param actual the actual value in the failed assertion.
    * @param other the value used in the failed assertion to compare the actual value to.
    * @param comparisonStrategy the {@link ComparisonStrategy} used to evaluate assertion.
@@ -38,7 +38,7 @@ public class ShouldBeBefore extends BasicErrorMessageFactory {
   }
 
   /**
-   * Creates a new </code>{@link ShouldBeBefore}</code>.
+   * Creates a new <code>{@link ShouldBeBefore}</code>.
    * @param actual the actual value in the failed assertion.
    * @param other the value used in the failed assertion to compare the actual value to.
    * @return the created {@code ErrorMessageFactory}.

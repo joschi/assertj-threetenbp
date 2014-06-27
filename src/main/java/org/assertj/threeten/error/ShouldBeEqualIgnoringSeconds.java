@@ -25,7 +25,7 @@ import org.threeten.bp.ZonedDateTime;
 public class ShouldBeEqualIgnoringSeconds extends BasicErrorMessageFactory {
 
   /**
-   * Creates a new </code>{@link ShouldBeEqualIgnoringSeconds}</code>.
+   * Creates a new <code>{@link ShouldBeEqualIgnoringSeconds}</code>.
    * 
    * @param actual the actual value in the failed assertion.
    * @param other the value used in the failed assertion to compare the actual value to.
