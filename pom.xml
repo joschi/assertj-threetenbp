@@ -13,7 +13,7 @@
         <version>7</version>
     </parent>
 
-    <groupId>com.github.com.joschi</groupId>
+    <groupId>com.github.joschi</groupId>
     <artifactId>assertj-threetenbp</artifactId>
     <version>0.1.1-SNAPSHOT</version>
     <packaging>jar</packaging>
