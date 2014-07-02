@@ -15,7 +15,7 @@
 
     <groupId>com.github.joschi</groupId>
     <artifactId>assertj-threetenbp</artifactId>
-    <version>0.1.2-SNAPSHOT</version>
+    <version>0.2.0</version>
     <packaging>jar</packaging>
 
     <name>AssertJ fluent assertions for ThreeTen (JSR-310 for Java 7)</name>
