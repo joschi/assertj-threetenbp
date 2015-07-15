@@ -18,8 +18,8 @@
     <version>0.4.1-SNAPSHOT</version>
     <packaging>jar</packaging>
 
-    <name>AssertJ fluent assertions for ThreeTen (JSR-310 for Java 7)</name>
-    <description>AssertJ ThreeTen is a library of assertions specific to the ThreeTen backport project (JSR-310 for Java 7)
+    <name>AssertJ fluent assertions for ThreeTen (JSR-310 for Java 6)</name>
+    <description>AssertJ ThreeTen is a library of assertions specific to the ThreeTen backport project (JSR-310 for Java 6)
     </description>
     <url>https://github.com/joschi/assertj-threetenbp</url>
 
