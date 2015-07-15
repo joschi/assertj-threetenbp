@@ -19,6 +19,8 @@ import org.junit.runner.RunWith;
 import org.threeten.bp.LocalDateTime;
 import org.threeten.bp.ZonedDateTime;
 
+import java.util.Formatter;
+
 import static org.assertj.core.api.Assertions.assertThat;
 import static org.assertj.core.api.Assertions.fail;
 import static org.assertj.core.util.FailureMessages.actualIsNull;
@@ -56,7 +58,7 @@ public class LocalDateTimeAssert_isBefore_Test extends LocalDateTimeAssertBaseTe
 
   @Test
   public void should_fail_if_actual_is_null() {
-    expectException(AssertionError.class, actualIsNull());
+    expectException(AssertionError.class, new Formatter().format(actualIsNull()).toString());
     LocalDateTime actual = null;
     assertThat(actual).isBefore(LocalDateTime.now());
   }

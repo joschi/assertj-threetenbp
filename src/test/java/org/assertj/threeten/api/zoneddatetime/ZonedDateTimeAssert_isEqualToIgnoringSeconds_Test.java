@@ -16,6 +16,8 @@ import org.assertj.threeten.api.ThreeTenBaseTest;
 import org.junit.Test;
 import org.threeten.bp.ZonedDateTime;
 
+import java.util.Formatter;
+
 import static org.assertj.core.api.Assertions.assertThat;
 import static org.assertj.core.util.FailureMessages.actualIsNull;
 import static org.assertj.threeten.api.Assertions.assertThat;
@@ -60,7 +62,7 @@ public class ZonedDateTimeAssert_isEqualToIgnoringSeconds_Test extends ThreeTenB
 
   @Test
   public void should_fail_if_actual_is_null() {
-    expectException(AssertionError.class, actualIsNull());
+    expectException(AssertionError.class, new Formatter().format(actualIsNull()).toString());
     ZonedDateTime actual = null;
     assertThat(actual).isEqualToIgnoringSeconds(ZonedDateTime.now());
   }

@@ -16,6 +16,8 @@ import org.assertj.threeten.api.ThreeTenBaseTest;
 import org.junit.Test;
 import org.threeten.bp.LocalDateTime;
 
+import java.util.Formatter;
+
 import static org.assertj.core.api.Assertions.assertThat;
 import static org.assertj.core.util.FailureMessages.actualIsNull;
 import static org.assertj.threeten.api.Assertions.assertThat;
@@ -58,7 +60,7 @@ public class LocalDateTimeAssert_isEqualToIgnoringHours_Test extends ThreeTenBas
 
   @Test
   public void should_fail_if_actual_is_null() {
-    expectException(AssertionError.class, actualIsNull());
+    expectException(AssertionError.class, new Formatter().format(actualIsNull()).toString());
     LocalDateTime actual = null;
     assertThat(actual).isEqualToIgnoringHours(LocalDateTime.now());
   }
