@@ -7,7 +7,7 @@
 
     <groupId>com.github.joschi</groupId>
     <artifactId>assertj-threetenbp</artifactId>
-    <version>0.5.1-SNAPSHOT</version>
+    <version>0.6.0</version>
     <packaging>jar</packaging>
 
     <name>AssertJ fluent assertions for ThreeTen (JSR-310 for Java 6)</name>
@@ -26,7 +26,8 @@
         <developerConnection>scm:git:git@github.com:joschi/assertj-threetenbp.git</developerConnection>
         <connection>scm:git:https://github.com/joschi/assertj-threetenbp.git</connection>
         <url>https://github.com/joschi/assertj-threetenbp</url>
-    </scm>
+      <tag>assertj-threetenbp-0.6.0</tag>
+  </scm>
 
     <issueManagement>
         <system>GitHub Issues</system>
