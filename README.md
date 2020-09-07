@@ -3,7 +3,7 @@
 assertj-threetenbp
 ==================
 
-[![Build Status](https://travis-ci.org/joschi/assertj-threetenbp.svg?branch=master)](https://travis-ci.org/joschi/assertj-threetenbp)
+![Main workflow](https://github.com/joschi/assertj-threetenbp/workflows/Main%20workflow/badge.svg?branch=master)
 [![Coverage Status](https://img.shields.io/coveralls/joschi/assertj-threetenbp.svg)](https://coveralls.io/r/joschi/assertj-threetenbp)
 
 [AssertJ](http://assertj.org) assertions for the [ThreeTen backport project](http://www.threeten.org/).
